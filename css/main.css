@@ -1,3 +1,9 @@
 #logo {
   display: none;
+  visibility: hidden;
+}
+
+a {
+  display: none;
+  visibility: hidden;
 }
