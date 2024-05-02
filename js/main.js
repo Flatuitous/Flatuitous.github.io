@@ -27,7 +27,7 @@ let objToRender = 'car';
 const loader = new GLTFLoader();
 
 loader.load(
-  `models/${objToRender}.gltf`,
+  `models/scene.gltf`,
   function (gltf) {
     // if file loaded, add to scene
     object = gltf.scene;
